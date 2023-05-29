@@ -108,7 +108,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: -0.231818px;
   margin-bottom: 20px;
   font-size: 16px;
 }
@@ -122,8 +121,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -202,7 +199,7 @@ form input {
   border: none;
   border-bottom: 1px solid #ccc;
   background-color: transparent;
-  color: white;
+  color: #ffffff;
   width: 100%;
 }
 form input::placeholder {
@@ -216,7 +213,7 @@ form input:focus-visible {
 }
 form button {
   padding: 10px 20px;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -382,7 +379,7 @@ form button {
 @media (max-width: 62em) {
   .mobile-navbar-btn {
     display: block;
-    z-index: 999;
+    z-index: 41;
     color: #212529;
   }
   .header {

@@ -4,7 +4,6 @@ $color_3: #364fc7;
 $color_4: #ffffff;
 $color_5: #212529;
 $color_6: #dedede;
-$color_7: white;
 $color_8: #adadad;
 $color_9: #efefef;
 $color_10: #252f40;
@@ -15,7 +14,6 @@ $background-color_2: #1c4769;
 $background-color_3: #a5d8ff;
 $background-color_4: rgba(33, 37, 41, 0.4);
 $background-color_5: transparent;
-$background-color_6: #fff;
 $background-color_7: #ffffff;
 $background-color_8: #d18821;
 
@@ -117,7 +115,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
-    letter-spacing: -0.231818px;
     margin-bottom: 20px;
     font-size: 16px;
   }
@@ -131,8 +128,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -207,7 +202,7 @@ form {
     border: none;
     border-bottom: 1px solid #ccc;
     background-color: $background-color_5;
-    color: $color_7;
+    color: $color_4;
     width: 100%;
     &::placeholder {
       color: $color_1;
@@ -221,7 +216,7 @@ form {
   }
   button {
     padding: 10px 20px;
-    background-color: $background-color_6;
+    background-color: $background-color_7;
     color: $color_1;
     border: none;
     cursor: pointer;
@@ -372,7 +367,7 @@ form {
 @media (max-width: 62em) {
   .mobile-navbar-btn {
     display: block;
-    z-index: 999;
+    z-index: 41;
     color: $color_5;
   }
   .header {
@@ -385,7 +380,7 @@ form {
   .navbar {
     width: 100%;
     height: 100vh;
-    background: #1c4769;
+    background: $background-color_2;
     position: fixed;
     top: 0;
     left: 0;
